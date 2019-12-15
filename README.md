@@ -14,6 +14,7 @@
 ## 2. Pretrained Models & training logs & Performance
 
 [seesawfacenet @ googledrive](https://drive.google.com/drive/folders/1n4Zi7YTqG4YoLdK3-aO8qWWEjOCcD7w9?usp=sharing)
+[seesawfacenet @ baidudisk](https://pan.baidu.com/s/1dggnM1VmHrtKwm2RfDlKdA) extraction code:exiy
 ![Image text](https://github.com/cvtower/seesawfacenet_pytorch/raw/master/figures/mobile_version.jpg)
 ![Image text](https://github.com/cvtower/seesawfacenet_pytorch/raw/master/figures/dw_version.jpg)
 
