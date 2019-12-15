@@ -147,3 +147,25 @@ python train.py -b [batch_size] -lr [learning rate] -e [epochs]
 
 - PRs are welcome, especially for models for mobile platfroms
 - Email : jtzhangcas@gmail.com
+
+Citation
+
+Please cite our papers in your publications if it helps your research:
+
+@misc{zhang2019seesawnet,
+    title={Seesaw-Net: Convolution Neural Network With Uneven Group Convolution},
+    author={Jintao Zhang},
+    year={2019},
+    eprint={1905.03672},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+
+@misc{zhang2019seesawfacenets,
+    title={SeesawFaceNets: sparse and robust face verification model for mobile platform},
+    author={Jintao Zhang},
+    year={2019},
+    eprint={1908.09124},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
