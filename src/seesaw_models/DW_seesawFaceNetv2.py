@@ -263,7 +263,7 @@ class seesaw_Residual(Module):
 ##################################  DW_seesawFaceNetv2 #############################################################
 class DW_seesawFaceNetv2(Module):
     def __init__(self, embedding_size=512):
-        super(dw_SeesawFaceNetv2, self).__init__()
+        super(DW_seesawFaceNetv2, self).__init__()
         self.conv1 = Conv_block(3, 96, kernel=(3, 3), stride=(2, 2), padding=(1, 1))
         self.conv2_dw = Conv_block(96, 96, kernel=(3, 3), stride=(1, 1), padding=(1, 1), groups=96)
         self.conv_23 = seesaw_Depth_Wise(96, 96, kernel=(3, 3), stride=(2, 2), padding=(1, 1), groups=192, use_se = 1, use_hs = 1)

@@ -1,7 +1,7 @@
 import torch.backends.cudnn as cudnn
 from data.data_pipe import de_preprocess, get_train_loader, get_val_data
-from seesaw_models.dw_SeesawFaceNetv1 import Backbone, Arcface, dw_SeesawFaceNetv1, Am_softmax, l2_norm
-from seesaw_models.dw_SeesawFaceNetv2 import Backbone, Arcface, dw_SeesawFaceNetv2, Am_softmax, l2_norm
+from seesaw_models.DW_seesawFaceNetv1 import Backbone, Arcface, DW_seesawFaceNetv1, Am_softmax, l2_norm
+from seesaw_models.DW_seesawFaceNetv2 import Backbone, Arcface, DW_seesawFaceNetv2, Am_softmax, l2_norm
 from seesaw_models.seesaw_shareFaceNet import Backbone, Arcface, seesaw_shareFaceNet, Am_softmax, l2_norm
 from seesaw_models.seesaw_shuffleFaceNet import Backbone, Arcface, seesaw_shuffleFaceNet, Am_softmax, l2_norm
 from verifacation import evaluate
@@ -16,7 +16,8 @@ from utils import get_time, gen_plot, hflip_batch, separate_bn_paras
 from PIL import Image
 from torchvision import transforms as trans
 import math
-import bcolz
+
+
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "0,1"
 
